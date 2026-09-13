@@ -48,6 +48,12 @@ Python, Pandas, Matplotlib, Jupyter Notebook
 - One "top-selling" product (80,995 units in a single transaction) turned out to be fully cancelled 12 minutes later under a linked invoice — a reminder that gross figures alone can be misleading
 - The customer with the highest total net sales was not the customer with the highest average order value — these measure different things
 
+## Visualizations
+
+![Monthly Sales Trend](images/monthly_sales_trend.png)
+![Top Products](images/top_products.png)
+![Country Sales](images/country_sales.png)
+
 ## What This Project Reinforced
 
 Most of the effort here went into the data-quality layer, not the charts — deciding what to keep, what to exclude, and why, before trusting any aggregate number. That same discipline (systematic quality checks before transformation) carries directly into building ETL/ELT pipelines.
